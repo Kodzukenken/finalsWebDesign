@@ -11444,7 +11444,7 @@ section {
 }
 
 section img {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
 
@@ -11553,7 +11553,7 @@ section img {
   opacity: 0.7; /* Adjust the opacity as desired */
 }
 
-.openTrigun{
+#openTrigun{
   position: relative;
   width: 100%;
   height: auto;
@@ -11564,11 +11564,11 @@ section img {
 
 }
 
-.background-image1{
+.background-image{
   position: relative;
   width: 100%;
   height: auto;
-  background-image: url("../assets/img/trigun_topbg.png");
+  background-image: url("../assets/img/interstellar.gif");
   background-size: cover;
   background-position: center;
   opacity: 0.7; /* Adjust the opacity as desired */
