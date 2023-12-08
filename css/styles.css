@@ -11555,11 +11555,12 @@ section img {
 .background-image {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
   /* background-image: url("../assets/img/interstellar.gif"); */
   background-size: cover;
   background-position: center;
   opacity: 0.7; /* Adjust the opacity as desired */
+  overflow-y: hidden;
 }
 
 #openTrigun{
@@ -11581,4 +11582,5 @@ section img {
   text-align: left; /* Center the content */
   color: white; /* Change text color for better visibility */
   padding-top: 10%;
+  font-size-adjust: 1;
 }
