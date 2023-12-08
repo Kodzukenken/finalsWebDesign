@@ -11466,7 +11466,13 @@ section img {
   
 } */
 
+#topAbout{
+  background: linear-gradient(#101214, #31304D, #F0ECE5);
+}
 
+#portfolio{
+  background-color: #F0ECE5;
+}
 
 .portfolio-item {
   display: block;
