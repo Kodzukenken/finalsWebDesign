@@ -3925,8 +3925,8 @@ nav ul li a {
   line-height: 44px; 
   text-align: center; 
   text-decoration: none; 
-  color:#575757;
-  white-space:nowrap; 
+  color:#fff;
+  white-space: nowrap; 
   min-width: 50px;
 } 
 
@@ -11435,7 +11435,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-color: #2c3034;
+  background-color: #101214;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11444,6 +11444,7 @@ footer.footer .social-link:hover {
 .masthead h1,
 .masthead .h1 {
   font-size: 4rem;
+  font-family: Kalnia, serif;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -11451,6 +11452,7 @@ footer.footer .social-link:hover {
 
 .masthead h3 {
   color: #fff;
+  font-family: Montserrat, sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -11496,6 +11498,10 @@ section img {
 #topAbout{
   background: linear-gradient(#101214, #31304D, #F0ECE5);
   color: #fff;
+}
+
+#contact{
+  background-color: #F0ECE5;
 }
 
 #portfolio{
