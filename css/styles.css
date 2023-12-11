@@ -11382,7 +11382,28 @@ html {
   display: block;
 }
 
+.calloutGhibli{
+  padding: 15rem 0;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("../assets/img/howlCity.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
 
+  max-height: 100%;
+
+  margin: 0 auto;
+
+  width: auto;
+
+  display: block;
+}
 
 .callout h2,
 .callout .h2 {
@@ -11601,6 +11622,17 @@ section img {
   background-position: center;
   opacity: 0.7; /* Adjust the opacity as desired */
   overflow-y: hidden;
+}
+
+.background-image img{
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../assets/img/interstellar.gif"); */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7; /* Adjust the opacity as desired */
+  overflow-y: hidden;
+  object-fit: fill;
 }
 
 #openTrigun{
