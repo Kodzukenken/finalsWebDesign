@@ -3915,6 +3915,21 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
+
+nav ul li a { 
+  display: inline-block; 
+  margin: 0 auto; 
+  /* width: 150px; 
+  font-size: 16px;
+  font-family: century gothic;  */
+  line-height: 44px; 
+  text-align: center; 
+  text-decoration: none; 
+  color:#575757;
+  white-space:nowrap; 
+  min-width: 50px;
+} 
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -11197,6 +11212,12 @@ html {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  font-size: 18px;
+}
+
+.content-section img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .content-section-heading h2,
@@ -11349,7 +11370,7 @@ html {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  height: 100%;
   max-width: 100%;
 
   max-height: 100%;
@@ -11447,10 +11468,14 @@ footer.footer .social-link:hover {
   width: 100%;
   height: 100vh;
   padding: 100px;
+} */
+
+#aboutPageHead{
+  background-color: #f5c2c7;
 }
 
 section img {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   
@@ -11462,12 +11487,15 @@ section img {
 
   width: auto;
 
-  display: block;
+  height: auto;
+
+  display: inline-block;
   
-} */
+}
 
 #topAbout{
   background: linear-gradient(#101214, #31304D, #F0ECE5);
+  color: #fff;
 }
 
 #portfolio{
