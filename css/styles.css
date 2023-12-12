@@ -11415,6 +11415,34 @@ html {
   display: block;
 }
 
+#interPage-top{
+  background-color: #F0ECE5;
+}
+
+.calloutInter{
+  padding: 15rem 0;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("../assets/img/interstellar_wiki.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+ 
+  max-width: 100%;
+
+  max-height: 100%;
+
+  margin: 0 auto;
+
+  width: auto;
+
+  display: block;
+}
+
 .callout h2,
 .callout .h2 {
   font-size: 3.5rem;
@@ -11697,52 +11725,4 @@ section img {
   color: white; /* Change text color for better visibility */
   padding-top: 10%;
   font-size-adjust: 1;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #188CB0;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity:1;
-}
-
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
 }
