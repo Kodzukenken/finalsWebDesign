@@ -11472,6 +11472,11 @@ footer.footer .social-link:hover {
   background-size: cover;
   
 }
+
+h1, h2{
+  font-family: Kalnia, serif;
+} 
+
 .masthead h1,
 .masthead .h1 {
   font-size: 4rem;
@@ -11483,7 +11488,6 @@ footer.footer .social-link:hover {
 
 .masthead h3 {
   color: #fff;
-  font-family: Montserrat, sans-serif;
 }
 
 @media (min-width: 992px) {
