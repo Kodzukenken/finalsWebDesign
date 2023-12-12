@@ -11504,7 +11504,12 @@ footer.footer .social-link:hover {
 } */
 
 #aboutPageHead{
-  background-color: #f5c2c7;
+  /* background-color: #f5c2c7; */
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 section img {
@@ -11524,6 +11529,10 @@ section img {
 
   display: inline-block;
   
+}
+
+#aboutPage-top{
+  background-color: #F9E8D9;
 }
 
 #topAbout{
@@ -11660,6 +11669,17 @@ section img {
 
 }
 
+#openAbout{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: url("../assets/img/teaParty.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8; /* Adjust the opacity as desired */
+
+}
+
 #charaG{
   background-color: #188CB0;
 }
@@ -11673,4 +11693,52 @@ section img {
   color: white; /* Change text color for better visibility */
   padding-top: 10%;
   font-size-adjust: 1;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #188CB0;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
 }
