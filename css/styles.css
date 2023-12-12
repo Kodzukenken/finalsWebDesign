@@ -11521,6 +11521,10 @@ section img {
   color: #fff;
 }
 
+#intro{
+  padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+}
+
 #contact{
   background-color: #F0ECE5;
 }
